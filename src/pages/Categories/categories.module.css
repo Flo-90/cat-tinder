@@ -1,0 +1,12 @@
+.mainWrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.categoriesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  

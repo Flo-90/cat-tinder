@@ -1,0 +1,43 @@
+.statisticsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statisticsContainer > div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    margin: 30px 20px 0 20px;
+}
+
+.svgStyle {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.cross {
+    fill: red;
+}
+
+.skip {
+    fill: #000
+}
+
+.pet {
+    fill: green;
+}
+
+.backBtn {
+    margin: 20px auto 0 auto;
+    padding: 10px 40px;
+    border-radius: 3px;
+    background: #222;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    width: auto;
+}

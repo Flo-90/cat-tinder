@@ -1,0 +1,35 @@
+.imgContainer {
+    height: 300px;
+    width: 300px;
+    background: lightblue;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.212);
+}
+
+.imageStyle {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s ease;
+}
+
+.imageStyle:hover {
+    height: 103%;
+    width: 103%;
+}
+
+.categoryName {
+    position: absolute;
+    background: #fff;
+    color: #000;
+    display: inlineBlock;
+    width: auto;
+    padding: 5px;
+    bottom: 20px;
+}
